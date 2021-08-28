@@ -1,0 +1,89 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "infinity quotes",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [
+            {
+              "name": "game",
+              "type": "game"
+            }
+          ],
+          "samples": [
+            "tell me something",
+            "tell me something from {game}",
+            "say something",
+            "say something from {game}",
+            "give me a quote from {game}",
+            "play a quote from {game}",
+            "play a quote",
+            "give me quote"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "planescape torment",
+                "synonyms": [
+                  "torment",
+                  "planescape",
+                  "pst"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "icewind dale"
+              }
+            },
+            {
+              "name": {
+                "value": "baldur\u0027s gate 2",
+                "synonyms": [
+                  "b.g. 2",
+                  "bg2"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "baldur\u0027s gate",
+                "synonyms": [
+                  "b.g.",
+                  "bg"
+                ]
+              }
+            }
+          ],
+          "name": "game"
+        }
+      ]
+    }
+  },
+  "version": "10"
+}

@@ -1,0 +1,178 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-CA": {
+          "summary": "Ask Alexa for quotes from the Infinity Engine games",
+          "examplePhrases": [
+            "Alexa ask Infinity Quotes to tell me something from Baldur\u0027s Gate 1",
+            "Alexa ask Infinity Quotes to say something from Baldur\u0027s Gate 2",
+            "Alexa ask Infinity Quotes to give me a quote from Icewind Dale"
+          ],
+          "keywords": [
+            "baldur\u0027s",
+            "gate",
+            "infinity",
+            "engine",
+            "icewind",
+            "dale",
+            "quote",
+            "planescape",
+            "torment"
+          ],
+          "name": "Infinity Quotes",
+          "description": "Ask Alexa to give you random quotes from the entire text corpus shipped with:\nBaldur\u0027s Gate\nBaldur\u0027s Gate 2\nIcewind Dale\nPlanescape Torment",
+          "smallIconUri": "file://assets/images/en-CA_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-CA_largeIconUri.png"
+        },
+        "en-US": {
+          "summary": "Ask Alexa for quotes from the Infinity Engine games",
+          "examplePhrases": [
+            "Alexa ask Infinity Quotes to tell me something from Baldur\u0027s Gate 1",
+            "Alexa ask Infinity Quotes to say something from Baldur\u0027s Gate 2",
+            "Alexa ask Infinity Quotes to give me a quote from Icewind Dale"
+          ],
+          "keywords": [
+            "baldur\u0027s",
+            "gate",
+            "infinity",
+            "engine",
+            "icewind",
+            "dale",
+            "quote",
+            "planescape",
+            "torment"
+          ],
+          "name": "Infinity Quotes",
+          "description": "Ask Alexa to give you random quotes from the entire text corpus shipped with:\nBaldur\u0027s Gate\nBaldur\u0027s Gate 2\nIcewind Dale\nPlanescape Torment",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "en-IN": {
+          "summary": "Ask Alexa for quotes from the Infinity Engine games",
+          "examplePhrases": [
+            "Alexa ask Infinity Quotes to tell me something from Baldur\u0027s Gate 1",
+            "Alexa ask Infinity Quotes to say something from Baldur\u0027s Gate 2",
+            "Alexa ask Infinity Quotes to give me a quote from Icewind Dale"
+          ],
+          "keywords": [
+            "baldur\u0027s",
+            "gate",
+            "infinity",
+            "engine",
+            "icewind",
+            "dale",
+            "quote",
+            "planescape",
+            "torment"
+          ],
+          "name": "Infinity Quotes",
+          "description": "Ask Alexa to give you random quotes from the entire text corpus shipped with:\nBaldur\u0027s Gate\nBaldur\u0027s Gate 2\nIcewind Dale\nPlanescape Torment",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        },
+        "en-AU": {
+          "summary": "Ask Alexa for quotes from the Infinity Engine games",
+          "examplePhrases": [
+            "Alexa ask Infinity Quotes to tell me something from Baldur\u0027s Gate 1",
+            "Alexa ask Infinity Quotes to say something from Baldur\u0027s Gate 2",
+            "Alexa ask Infinity Quotes to give me a quote from Icewind Dale"
+          ],
+          "keywords": [
+            "baldur\u0027s",
+            "gate",
+            "infinity",
+            "engine",
+            "icewind",
+            "dale",
+            "quote",
+            "planescape",
+            "torment"
+          ],
+          "name": "Infinity Quotes",
+          "description": "Ask Alexa to give you random quotes from the entire text corpus shipped with:\nBaldur\u0027s Gate\nBaldur\u0027s Gate 2\nIcewind Dale\nPlanescape Torment",
+          "smallIconUri": "file://assets/images/en-AU_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-AU_largeIconUri.png"
+        },
+        "en-GB": {
+          "summary": "Ask Alexa for quotes from the Infinity Engine games",
+          "examplePhrases": [
+            "Alexa ask Infinity Quotes to tell me something from Baldur\u0027s Gate 1",
+            "Alexa ask Infinity Quotes to say something from Baldur\u0027s Gate 2",
+            "Alexa ask Infinity Quotes to give me a quote from Icewind Dale"
+          ],
+          "keywords": [
+            "baldur\u0027s",
+            "gate",
+            "infinity",
+            "engine",
+            "icewind",
+            "dale",
+            "quote",
+            "planescape",
+            "torment"
+          ],
+          "name": "Infinity Quotes",
+          "description": "Ask Alexa to give you random quotes from the entire text corpus shipped with:\nBaldur\u0027s Gate\nBaldur\u0027s Gate 2\nIcewind Dale\nPlanescape Torment",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "\"Alexa ask Infinity Quotes to tell me something\"\nNo other special instructions, no money involved, no advertising, no credentials, no permissions, calls an external API to retrieve the quote information. The skill icons is \nCC Attribution-Noncommercial-No Derivate 4.0 from https://iconarchive.com/show/mega-games-pack-25-icons-by-3xhumed/Baldur-s-Gate-1-icon.html.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionMode": "PUBLIC",
+      "automaticClonedLocale": {
+        "locales": [
+          {
+            "source": "en-GB"
+          }
+        ]
+      },
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:750991800839:function:d2921269-aa51-44af-9b96-6cf077a0421a:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:750991800839:function:d2921269-aa51-44af-9b96-6cf077a0421a:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:750991800839:function:d2921269-aa51-44af-9b96-6cf077a0421a:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:750991800839:function:d2921269-aa51-44af-9b96-6cf077a0421a:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-CA": {},
+        "en-US": {},
+        "en-IN": {},
+        "en-AU": {},
+        "en-GB": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
